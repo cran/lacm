@@ -1,0 +1,13 @@
+citHeader("To cite lacm in publications use:")
+
+citEntry(entry = "Manual",
+  title        = "Pairwise likelihood estimation of latent autoregressive count models",
+  author       = personList(as.person("Xanthi Pedeli"), as.person("Cristiano Varin")),
+  year         = "2018",
+  url          = "https://arxiv.org/abs/1805.10865",
+
+  textVersion  =
+  paste("Xanthi Pedeli, Cristiano Varin (2018).",
+        "Pairwise likelihood estimation of latent autoregressive count models",
+        "URL https://arxiv.org/abs/1805.10865.")
+)

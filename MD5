@@ -1,0 +1,14 @@
+807093b4228653dd521098766b9c23cf *DESCRIPTION
+08ac4bd9d089d8c88c51c2aa7148de13 *NAMESPACE
+a68830f7820c4af75f37c81ac912c862 *R/lacm.R
+b0a38c20b57f5f54d284d9bfa36cdbba *data/polio.RData
+92f069860917a0f80e9b32940d5ce143 *data/sim50.RData
+100beea7fe1ad6dc6c36bbac79db6e02 *inst/CITATION
+a698d758fac02a542736fc8547a8d798 *man/CLIC.rd
+88bf1582b2262a3f2da235b092ebd355 *man/lacm.Rd
+04f578329c2c8a22e9762e192f69334e *man/polio.Rd
+e4f21fa4e15889d738c76682570bf06c *man/select.C.rd
+18d377ae10374dd219e08f67af606cbc *man/select.order.rd
+36227ab7481d0123dc898270c1fa5781 *man/sim50.Rd
+9f6e595bc0c2815ff0af5bdd3ed3e7a8 *man/summary.lacm.rd
+b2f242fc10d5a7243f4723adeb5e0667 *src/pairlik.c
