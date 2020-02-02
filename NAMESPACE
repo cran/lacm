@@ -2,11 +2,11 @@ useDynLib(lacm, .registration = TRUE)
 
 import("stats")
 
-importFrom("numDeriv", "jacobian")
 importFrom("statmod", "gauss.quad")
 importFrom("graphics", "grid")
+importFrom("numDeriv", "jacobian")
 
-export(lacm, CLIC, select.C, select.order)
+export(lacm, CLIC)
 
 S3method("coef", "lacm")
 S3method("print", "lacm")
@@ -14,6 +14,8 @@ S3method("print", "summary.lacm")
 S3method("simulate", "lacm")
 S3method("summary", "lacm")
 S3method("vcov", "lacm")
+
+
 
 
 
