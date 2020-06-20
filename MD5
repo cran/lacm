@@ -1,10 +1,11 @@
-b1ad0309e77800d4492d1e2ea3436bc6 *DESCRIPTION
+0652762bd66618ba755e1397760be192 *DESCRIPTION
 db2bb4394aff7db06d73de3fb591344d *NAMESPACE
 52fb70fb0dc72bdd7b1248193f309f12 *R/lacm.R
+91e7ac8438db5815f2c8d6e436104f3d *build/partial.rdb
 b0a38c20b57f5f54d284d9bfa36cdbba *data/polio.RData
-100beea7fe1ad6dc6c36bbac79db6e02 *inst/CITATION
-f70a935d1ff65aa2adbeeca8736896f7 *man/CLIC.rd
-2c16c9e3dc3bbc6a52445e77f58856d0 *man/lacm.Rd
+06de1e16bfb97d92703e24f70673f0b5 *inst/CITATION
+e5ec4000b82c6657418717a3116c3994 *man/CLIC.rd
+8bdafce6850ce37c9ecfeec9550f3b05 *man/lacm.Rd
 04f578329c2c8a22e9762e192f69334e *man/polio.Rd
-a3c234469a99cc8a4a0b97420ba60a47 *man/summary.lacm.rd
+2c6ec80c7f9e980b1b3e0cf832d9c16e *man/summary.lacm.rd
 4a0811d3509595b790a48ee7655d58c8 *src/pairlik.c

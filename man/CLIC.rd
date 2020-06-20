@@ -28,7 +28,7 @@ When comparing models fitted by maximum pairwise likelihood to the same data, th
 a numeric value with the corresponding CLIC.
 }
 \references{
-Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. Available at arXiv.org.
+Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. \emph{Statistical Methods in Medical Research}.\doi{10.1177/0962280220924068}.
 
 Varin, C. and Vidoni, P. (2005). A note on composite likelihood inference and model selection. \emph{Biometrika}, \bold{92}, 519--528.
 }

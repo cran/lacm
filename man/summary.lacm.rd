@@ -48,7 +48,7 @@ The function \code{simulate.lacm} returns a list of simulated responses.
 The function \code{print} returns the \code{call} and \code{coefficients}, \code{coef} returns the estimated coefficients and \code{vcov} the corresponding variance-covariance matrix. 
 }
 \references{
-Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. Available at arXiv.org.
+Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. \emph{Statistical Methods in Medical Research}.\doi{10.1177/0962280220924068}.
 }
 
 \author{

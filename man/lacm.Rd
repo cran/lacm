@@ -138,7 +138,7 @@ Functions \code{\link{summary.lacm}}, \code{\link{coefficients}} and \code{\link
 \references{
 Ng, C., Joe, H., Karlis, D., and Liu, J. (2011). Composite likelihood for time series models with a latent autoregressive process. \emph{Statistica Sinica}, \bold{21}, 279--305.
 
-Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. Available at arXiv.org.
+Pedeli, X. and Varin, C. (2020). Pairwise likelihood estimation of latent autoregressive count models. \emph{Statistical Methods in Medical Research}.\doi{10.1177/0962280220924068}.
 }
 \author{
 Xanthi Pedeli and Cristiano Varin.
