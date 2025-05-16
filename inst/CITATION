@@ -1,15 +1,13 @@
-citHeader("To cite lacm in publications use:")
-
-citEntry(entry = "Article",
-  title        = "Pairwise likelihood estimation of latent autoregressive count models",
-  author       = personList(as.person("Xanthi Pedeli"), as.person("Cristiano Varin")),
-  Journal      = "Statistical Methods in Medical Research",
-  year         = "2020",
-  url          = "https://doi.org/10.1177/0962280220924068",
-
-  textVersion  =
-  paste("Xanthi Pedeli, Cristiano Varin (2020).",
-        "Pairwise likelihood estimation of latent autoregressive count models",
-	  "Statistical Methods in Medical Research.",	
-        "URL https://doi.org/10.1177/0962280220924068.")
+bibentry("Article",
+         title       = "Pairwise likelihood estimation of latent autoregressive count models",
+         author      = c(person(given = "Xanthi", family = "Pedeli", email = "xpedeli@aueb.gr", comment = c(ORCID = "0000-0002-2627-2990")),
+	                 person(given = "Cristiano", family = "Varin", email = "cristiano.varin@unive.it", comment = c(ORCID = "0000-0002-5591-5705"))),
+         journal     = "Statistical Methods in Medical Research",
+         year        = "2020",
+         volume      = "29",
+         number      = "11",
+         pages       = "3278--3293",
+         doi         = "10.1177/0962280220924068",
+  
+	 header     = "To cite lacm in publications use:"
 )

@@ -15,13 +15,13 @@ lacm(formula, data, subset, offset, contrasts = NULL, start.theta = NULL, fixed,
 
 \arguments{
 
-\item{formula}{an object of class \code{"\link{formula}"} (or one that
+\item{formula}{an object of class \code{"\link[stats]{formula}"} (or one that
     can be coerced to that class): a symbolic description of the
     model to be fitted.  The details of model specification are given
     under \sQuote{Details}.}
 
 \item{data}{an optional data frame, list or environment (or object
-    coercible by \code{\link{as.data.frame}} to a data frame) containing
+    coercible by \code{\link[base]{as.data.frame}} to a data frame) containing
     the variables in the model.  If not found in \code{data}, the
     variables are taken from \code{environment(formula)},
     typically the environment from which \code{lacm} is called.}
@@ -32,12 +32,12 @@ lacm(formula, data, subset, offset, contrasts = NULL, start.theta = NULL, fixed,
  \item{offset}{this can be used to specify an \emph{a priori} known
     component to be included in the linear predictor during fitting.
     This should be \code{NULL} or a numeric vector of length equal to
-    the number of cases.  One or more \code{\link{offset}} terms can be
+    the number of cases.  One or more \code{\link[stats]{offset}} terms can be
     included in the formula instead or as well, and if more than one is
-    specified their sum is used.  See \code{\link{model.offset}}.}
+    specified their sum is used.  See \code{\link[stats]{model.offset}}.}
 
 \item{contrasts}{an optional list. See the \code{contrasts.arg}
-    of \code{\link{model.matrix.default}}.}
+    of \code{\link[stats]{model.matrix.default}}.}
 
 \item{start.theta}{
 optional numeric vector with starting values for the model parameters.
@@ -64,7 +64,7 @@ number of the Gauss-Hermite quadrature nodes. Defaults to 20.
 }
 
 \item{reltol.opt}{
-relative convergence tolerance to be passed to \code{\link{optim}}. Defaults to 1e-6.
+relative convergence tolerance to be passed to \code{\link[stats]{optim}}. Defaults to 1e-6.
 }
  
 \item{opt.method}{
@@ -72,7 +72,7 @@ one of \code{"BFGS"} or \code{"Nelder-Mead"} indicating the optimization method 
 }
 
 \item{maxit.opt}{ 
-the maximum number of iterations to be passed to \code{\link{optim}}. Defaults to 1000.
+the maximum number of iterations to be passed to \code{\link[stats]{optim}}. Defaults to 1000.
 }
 
 \item{sandwich.lag}{ 
@@ -89,7 +89,7 @@ further arguments passed to or from other methods.
 \details{
 Function \code{lacm} performs maximum pairwise likelihood estimation in latent autoressive count models, see Pedeli and Varin (2020) for details.
 
-Evaluation of the pairwise likelihood is performed through double Gauss-Hermite quadrature with the \code{gh.num} nodes and weights calculated by \code{\link{gauss.quad}}. 
+Evaluation of the pairwise likelihood is performed through double Gauss-Hermite quadrature with the \code{gh.num} nodes and weights calculated by \code{\link[statmod]{gauss.quad}}. 
 
 Standard formula \code{y ~ x1 + x2} indicates that the mean response is modelled as a function of covariates \code{x1} and \code{x2} through a log link function. 
 
@@ -112,7 +112,7 @@ An object of class \code{"lacm"} with the following components:
 \item{fit}{logical. Was the model fitted or not?}
 \item{gh.num}{number of Gauss-Hermite nodes used.}
 \item{call}{the matched call.}
-\item{terms}{the \code{\link{terms}} object  used.}
+\item{terms}{the \code{\link[stats]{terms}} object  used.}
 \item{latent}{logical. Does the model include the latent part?}
 \item{fixed}{the numeric vector indicating which parameters are constants.}
 \item{ifree}{indeces of the free parameters.}
@@ -133,7 +133,7 @@ An object of class \code{"lacm"} with the following components:
 \item{vcov}{the variance-covariance matrix of the maximum pairwise likelihood estimate.}
 \item{CLIC}{the composite likelihood information criterion.}
 
-Functions \code{\link{summary.lacm}}, \code{\link{coefficients}} and \code{\link{vcov.lacm}} can be used to obtain or print a summary of the results, extract coefficients and their estimated variance-covariance matrix of the model fitted by \code{\link{lacm}}. 
+Functions \code{\link{summary.lacm}}, \code{\link[stats]{coefficients}} and \code{\link{vcov.lacm}} can be used to obtain or print a summary of the results, extract coefficients and their estimated variance-covariance matrix of the model fitted by \code{\link{lacm}}. 
 }
 \references{
 Ng, C., Joe, H., Karlis, D., and Liu, J. (2011). Composite likelihood for time series models with a latent autoregressive process. \emph{Statistica Sinica}, \bold{21}, 279--305.
